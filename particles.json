@@ -1,0 +1,84 @@
+{
+  "particles":{
+    "number":{
+      "value": 300
+    },
+    "color":{
+      "value":"#fff"
+    },
+    "shape":{
+      "type":"circle"
+    },
+    "opacity":{
+      "random": true,
+      "anim":{
+        "enable": true,
+        "speed": 1,
+        "opacity_min": 0.1
+      }
+    },
+    "size":{
+      "value": 2,
+      "random": true,
+      "anim":{
+        "enable": true,
+        "speed": 1
+      }
+    },
+    "line_linked":{
+      "enable": false
+    },
+    "move":{
+      "enable": true,
+      "speed": 0.3,
+      "random": true
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "bubble"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 50,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 100,
+        "size": 2.5,
+        "duration": 10,
+        "opacity": 2,
+        "speed": 10
+      },
+      "repulse": {
+        "distance": 200
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true,
+  "config_demo": {
+    "hide_card": false,
+    "background_color": "#b61924",
+    "background_image": "",
+    "background_position": "50% 50%",
+    "background_repeat": "no-repeat",
+    "background_size": "cover"
+  }
+}
