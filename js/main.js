@@ -240,18 +240,18 @@ menu.addEventListener("click", animateNav);
 
 //Body Animations
 
-const infoImage = document.querySelector('.info--image');
-const infoText = document.querySelector('.info--text');
-const servicesContainer = document.querySelectorAll('.services--container');
+const infoImage = document.querySelector('.info-image');
+const infoText = document.querySelector('.info-text');
+const service = document.querySelectorAll('.service');
 
 function animateBody() {
 
   if (window.innerWidth >= 768) {
     infoImage.classList.add('wow', 'fadeInLeft', 'delay-600ms');
     infoText.classList.add('wow', 'fadeIn', 'delay-1s');
-    servicesContainer[0].classList.add('wow', 'fadeInLeft', 'delay-500ms');
-    servicesContainer[1].classList.add('wow', 'fadeInUp', 'delay-500ms');
-    servicesContainer[2].classList.add('wow', 'fadeInRight', 'delay-500ms');
+    service[0].classList.add('wow', 'fadeInLeft', 'delay-500ms');
+    service[1].classList.add('wow', 'fadeInUp', 'delay-500ms');
+    service[2].classList.add('wow', 'fadeInRight', 'delay-500ms');
   }
 
   if (window.innerWidth <= 768) {
