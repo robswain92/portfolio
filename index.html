@@ -65,9 +65,9 @@
 
 	<div id="particles-js">
 		<div class="canvas-container">
-			<div class="canvas--text animated fadeIn delay-1s">
+			<div class="canvas__text animated fadeIn delay-1s">
 				<p>Hi, my name is Rob.</p>
-				<p class="canvas--text__typewriter">I love <span class="txt-type" data-wait="2000" data-words='["coding", "designing", "football", "space", "nature", "reading"]'></span>
+				<p class="canvas__typewriter">I love <span class="txt-type" data-wait="2000" data-words='["coding", "designing", "football", "space", "nature", "reading"]'></span>
 					<span class="txt-cursor"></span></p>
 			</div>
 		</div>
@@ -83,14 +83,14 @@
 	</div>
 
 	<div class="container">
-		<div class="row" id="info">
-			<div class="info--image col-md-4">
+		<div id="info" class="row">
+			<div class="info-image col-md-4">
 				<img src="images/me-cartoon3.png" alt="RobSwain" height="400px" class="img-fluid">
 			</div>
-			<div class="info--text col-md-6 offset-md-1">
-				<p class="info__header">Rob Swain</p>
-				<p class="info__subtitle">FRONT-END WEB DEVELOPER</p>
-				<p class="info__text">I am a freelance web developer based in Derbyshire. Having first learned to design and code websites in my teens I re-discovered my passion for coding in 2018. I have working knowledge of HTML, CSS and JavaScript and I am
+			<div class="info-text col-md-6 offset-md-1">
+				<p class="info-text__title">Rob Swain</p>
+				<p class="info-text__subtitle">FRONT-END WEB DEVELOPER</p>
+				<p class="info-text__text">I am a freelance web developer based in Derbyshire. Having first learned to design and code websites in my teens I re-discovered my passion for coding in 2018. I have working knowledge of HTML, CSS and JavaScript and I am
 					well-versed in the Adobe Suite for designing graphics and wire-framing layouts.</p>
 			</div>
 		</div>
@@ -100,32 +100,32 @@
 		<div class="container">
 			<p class="section-title">What I do</p>
 			<div class="row">
-				<div class="services--container col-md-4">
-					<div class="services--img-holder">
+				<div class="service col-md-4">
+					<div class="service__img">
 						<span style="font-size: 5em; color: #0089D1;">
 							<i class="fas fa-paint-brush"></i>
 						</span>
 					</div>
-					<p class="services--header">Web Design</p>
-					<p class="services--text">Utilising the latest design trends I make your website look sleek and modern whilst building it to your custom needs and specifications.</p>
+					<p class="service__title">Web Design</p>
+					<p class="service__text">Utilising the latest design trends I make your website look sleek and modern whilst building it to your custom needs and specifications.</p>
 				</div>
-				<div class="services--container col-md-4">
-					<div class="services--img-holder">
+				<div class="service col-md-4">
+					<div class="service__img">
 						<span style="font-size: 5em; color: #0089D1;">
 							<i class="fas fa-code"></i>
 						</span>
 					</div>
-					<p class="services--header">Web Development</p>
-					<p class="services--text">Writing clean, maintainable code is my priority. I code in HTML, CSS, JavaScript and PHP to make sure your website functions how it should.</p>
+					<p class="service__title">Web Development</p>
+					<p class="service__text">Writing clean, maintainable code is my priority. I code in HTML, CSS, JavaScript and PHP to make sure your website functions how it should.</p>
 				</div>
-				<div class="services--container col-md-4">
-					<div class="services--img-holder">
+				<div class="service col-md-4">
+					<div class="service__img">
 						<span style="font-size: 5em; color: #0089D1;">
 							<i class="fas fa-mobile-alt"></i>
 						</span>
 					</div>
-					<p class="services--header">Responsive Design</p>
-					<p class="services--text">Making sure your website functions well on any screen size is critically important. Every website I make is made to look good on any device.</p>
+					<p class="service__title">Responsive Design</p>
+					<p class="service__text">Making sure your website functions well on any screen size is critically important. Every website I make is made to look good on any device.</p>
 				</div>
 			</div>
 		</div>
@@ -134,19 +134,21 @@
 	<div id="portfolio">
 		<div class="container">
 			<p class="section-title">Portfolio</p>
-			<div class="row">
-				<div class="portfolio--box col-md-6">
-					<a href="http://robmartin.robswain.website" target="_blank"><img src="images/rmhero.png" alt="Rob Martin">
-					<div class="portfolio--box__overlay">
-						<p class="portfolio--box__heading">Rob Martin</p>
-						<p class="portfolio--box__text">Web Design & Development</p>
-					</div></a>
-				</div>
-				<div class="portfolio--box col-md-6">
-					<img src="images/bfhero.png" alt="Barnfind Detailing">
-					<div class="portfolio--box__overlay">
-						<p class="portfolio--box__heading">Barnfind Detailing</p>
-						<p class="portfolio--box__text">Web Design & Development</p>
+			<div class="portfolio-container">
+				<div class="row">
+					<div class="portfolio-box col-md-6">
+						<a href="http://robmartin.robswain.website" target="_blank"><img src="images/rmhero.png" alt="Rob Martin">
+						<div class="portfolio-box__overlay">
+							<p class="portfolio-box__title">Rob Martin</p>
+							<p class="portfolio-box__text">Web Design & Development</p>
+						</div></a>
+					</div>
+					<div class="portfolio-box col-md-6">
+						<img src="images/bfhero.png" alt="Barnfind Detailing">
+						<div class="portfolio-box__overlay">
+							<p class="portfolio-box__title">Barnfind Detailing</p>
+							<p class="portfolio-box__text">Web Design & Development</p>
+						</div>
 					</div>
 				</div>
 			</div>
